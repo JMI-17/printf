@@ -4,8 +4,7 @@
 /**
 * _printf - Custom printf function.
 * @format: Format string with optional conversion specifiers.
-*
-* Return: The number of characters printed (excluding the null byte used to end output to strings).
+* Return: The number of characters printed.
 */
 int _printf(const char *format, ...)
 {
