@@ -1,14 +1,16 @@
-#include <stdarg.h>
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
+#include <stdarg.h>
 /**
-* _printf - a function that produces output according to a format.
-* @ format - to produce output
-* Returns: the number of characters printed
+* _printf - Custom printf function.
+* @format: Format string with optional conversion specifiers.
+*
+* Return: The number of characters printed (excluding the null byte used to end output to strings).
 */
-int _printf(const char *format, ...){
+int _printf(const char *format, ...)
+{
 va_list args;
-int count = 0;  // Declaration moved to the beginning
+int count = 0;
 va_start(args, format);
 while (*format != '\0') {
 if (*format == '%') {
