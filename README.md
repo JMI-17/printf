@@ -8,12 +8,14 @@
 
 ## Tasks
 ### Note: Tasks in this project have specific requiremnt that is not fully listed here.
+### Mandatory
 - Write a function that produces output according to a format. format is a character string. The format string is composed of zero or more directives. See man 3 printf for more detail. You need to handle the following conversion specifiers: <br/>
 **c** <br/>
 **s**  <br/>
 **%**  <br/>
 **d**  <br/>
 **i**  <br/>
+### Advanced
 **b**: the unsigned int argument is converted to binary<br/>
 **u** <br/>
 **o** <br/>
